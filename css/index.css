@@ -147,10 +147,8 @@ p {
     width: 100%;
   }
 }
-@media (max-width: 715px) {
-  .container .nav-div .navbar {
-    width: 100%;
-  }
+.container .nav-div .navbar {
+  width: 100%;
 }
 .container .nav-div .navbar .nav-header {
   font-size: 4rem;
@@ -168,6 +166,7 @@ p {
 }
 .container .nav-div .navbar .nav-header h1 {
   color: #4682B4;
+  font-size: 3rem;
 }
 .container .nav-div .navbar .nav-links {
   display: flex;
