@@ -49,22 +49,19 @@ p {
 }
 .container .intro h2 {
   padding: 15px;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
 }
 .container .intro p {
   padding: 0 15px;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .container .intro img {
-  width: 80%;
-  padding-left: 20%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  border: 30px outset white;
+  background: lightgray;
+  width: 100%;
 }
 @media (max-width: 715px) {
   .container .intro img {
-    width: 100%;
-    padding-left: 0%;
     display: flex;
     justify-content: center;
     padding: 1%;
@@ -165,25 +162,20 @@ p {
   font-size: 4rem;
   padding-bottom: 1.6rem;
   width: 100%;
-  padding-left: 23%;
+  display: flex;
+  justify-content: center;
+  padding: 1%;
 }
 @media (max-width: 715px) {
   .container .nav-div .navbar .nav-header {
     font-size: 2rem;
-    display: flex;
-    padding-left: 0%;
-    justify-content: center;
   }
 }
 .container .nav-div .navbar .nav-header h1 {
   color: #4682B4;
-  font-size: 3rem;
-  padding-left: 10%;
+  font-size: 3.7rem;
 }
 @media (max-width: 715px) {
-  .container .nav-div .navbar .nav-header h1 {
-    padding-left: 0%;
-  }
 }
 .container .nav-div .navbar .nav-links {
   display: flex;
