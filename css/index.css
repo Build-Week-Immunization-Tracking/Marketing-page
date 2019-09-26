@@ -47,6 +47,11 @@ p {
   margin: 0 auto;
   background: #AFEEEE;
 }
+.container {
+  background-image: url(../images/earthTree.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .container .intro h2 {
   padding: 15px;
   font-size: 2.4rem;
@@ -150,6 +155,53 @@ p {
   height: auto;
   border-radius: 10px;
 }
+.container .last {
+  border-top: 8px solid grey;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  color: #F5FFFA;
+}
+.container .last .walk-text {
+  width: 45%;
+  padding-right: 6%;
+  padding-top: 3%;
+}
+@media (max-width: 715px) {
+  .container .last .walk-text {
+    width: 100%;
+  }
+}
+.container .last .walk-text h3 {
+  margin-bottom: 10px;
+  color: red;
+  font-size: 3.2rem;
+}
+.container .last .walk-text p {
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+  color: black;
+}
+.container .last .walk-text .btn {
+  margin-bottom: 1rem;
+}
+.container .last .walk-text .btn a {
+  background: black;
+  color: white;
+  font-size: 2rem;
+  width: 40%;
+  justify-content: center;
+  text-decoration: none;
+}
+.container .last .walk-text .btn a:hover {
+  background-color: teal;
+  color: white;
+}
+.container .last .walk-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 .container .nav-div {
   display: flex;
   justify-content: center;
@@ -192,7 +244,7 @@ p {
 }
 .container .nav-div .navbar .nav-links a {
   text-decoration: none;
-  color: gray;
+  color: white;
   border-top: 2px solid grey;
   font-size: 2.4rem;
   padding: 0.5rem;
