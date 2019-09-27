@@ -235,7 +235,7 @@ p {
 }
 .container .nav-div .navbar .nav-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 @media (mad-width: 715px) {
   .container .nav-div .navbar .nav-links {
